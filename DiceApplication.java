@@ -15,5 +15,9 @@ class DiceApplication{
         int n2 = sc2.nextInt();
         int sum = n1 + n2;
         System.out.println("Total value: " + sum);
+        if(sum > 7){
+            System.out.println("You won");
+        }
+        else System.out.println("You lost");
     }
 }
